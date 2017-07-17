@@ -1,8 +1,11 @@
 {
   "name": "airing-translator",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "命令行翻译小助手airing",
-  "main": "airing.js",
+  "main": "index.js",
+  "bin": {
+    "airing": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,10 +16,15 @@
   "keywords": [
     "commander"
   ],
-  "author": "Airing",
+  "author": {
+    "name": "Airing",
+    "email" :"airing@ursb.me",
+    "url" : "http://me.ursb.me"
+  },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/airingursb/airing-translator/issues"
+    "url": "https://github.com/airingursb/airing-translator/issues",
+    "email" :"airing@ursb.me"
   },
   "homepage": "https://github.com/airingursb/airing-translator#readme",
   "dependencies": {

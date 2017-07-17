@@ -1,7 +1,7 @@
 ## Installation
 
 ```
-npm install airing -g
+npm install airing-translator -g
 ```
 
 ## Help
