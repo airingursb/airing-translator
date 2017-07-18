@@ -1,3 +1,7 @@
+## Screenshot
+
+![](https://airing.ursb.me/image/cover/airing-translator.jpeg)
+
 ## Installation
 
 ```
