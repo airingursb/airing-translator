@@ -20,7 +20,7 @@ console.log('=== 🍻  欢迎使用 Airing 翻译小助手 🍻  ===');
 
 if (program.en || program.zh) {
   var timestamp = new Date().getTime();
-  var appid = 2015063000000001;
+  var appid = "2015063000000001";
   var key = '12345678';
   var sign = md5(appid + program.args[0] + timestamp + key);
   var params = {
